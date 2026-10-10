@@ -101,6 +101,8 @@ With the server running, find your computer's local IP address (`ipconfig` on Wi
 
 ## 3. Adding your images and videos
 
+**For a placeholder-by-placeholder guide with line numbers, see [PLACEHOLDERS.md](PLACEHOLDERS.md).**
+
 Every placeholder is labelled on the page (for example `[IMAGE PLACEHOLDER: Sigiriya sunrise]`) and marked in the code with a `<!-- TODO: Replace ... -->` comment.
 
 ### The easy way: drop in files with the right names
