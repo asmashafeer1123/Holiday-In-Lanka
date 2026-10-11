@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Help &amp; Contact — LankaSky</title>
+  <meta name="description" content="Get in touch with LankaSky customer care.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="contact">
+
+  <div class="topbar">
+    <div class="container">
+      <div><span>Sri Lanka's island-hopping airline</span><span class="hide-sm">Hotline: <a href="tel:+94112000000">+94 11 200 0000</a></span></div>
+      <div><a href="contact.html">Help</a><a href="status.html">Check flight status</a></div>
+    </div>
+  </div>
+
+  <!-- Horizontal navigation bar — each widget opens its own page -->
+  <header class="navbar">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="LankaSky home">
+        <span class="brand-mark"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg></span>
+        <span>Lanka<b>Sky</b></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" data-page="book">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+          Book</a></li>
+        <li><a href="destinations.html" data-page="destinations">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Destinations</a></li>
+        <li><a href="status.html" data-page="status">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Flight Status</a></li>
+        <li><a href="contact.html" data-page="contact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Help &amp; Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a class="btn btn-outline btn-sm" href="#">Sign in</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero--page">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Help &amp; Contact</div>
+        <h1>How can we help?</h1>
+        <p class="lead">Our Colombo-based team is here every day from 5am to 11pm, Sri Lanka time.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="card" style="padding:32px">
+          <h2 style="font-size:1.6rem">Send us a message</h2>
+          <p style="margin-bottom:22px">We reply to most messages within 24 hours.</p>
+          <form id="contact-form" class="form-grid">
+            <div class="field"><label for="c-name">Full name</label><input id="c-name" required></div>
+            <div class="field"><label for="c-email">Email</label><input id="c-email" type="email" required></div>
+            <div class="field"><label for="c-ref">Booking reference</label><input id="c-ref" placeholder="Optional, e.g. LSK8Q2"></div>
+            <div class="field"><label for="c-topic">Topic</label>
+              <select id="c-topic">
+                <option>Changing a booking</option><option>Baggage</option><option>Refunds</option>
+                <option>Special assistance</option><option>Group travel</option><option>Something else</option>
+              </select>
+            </div>
+            <div class="field full"><label for="c-msg">Message</label><textarea id="c-msg" required></textarea></div>
+            <div class="full"><button class="btn btn-primary" type="submit">Send message</button></div>
+          </form>
+        </div>
+
+        <aside class="card" style="padding:32px">
+          <h3>Other ways to reach us</h3>
+          <ul class="info-list" style="margin-top:20px">
+            <li><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span><div><strong>Call</strong><span>+94 11 200 0000</span></div></li>
+            <li><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span><div><strong>Email</strong><span>hello@lankasky.example</span></div></li>
+            <li><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><div><strong>Sales office</strong><span>Domestic Terminal, Bandaranaike International Airport, Katunayake</span></div></li>
+            <li><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><div><strong>Hours</strong><span>Every day, 05:00 – 23:00</span></div></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="faq">
+      <div class="container" style="max-width:820px">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Quick answers</h2>
+        </div>
+        <div class="faq">
+          <details open><summary>How much baggage can I bring?</summary><p>Every fare includes 20kg of checked baggage and one 7kg cabin bag. Extra kilos can be added in Manage Booking at LKR 650 per kg.</p></details>
+          <details><summary>When does check-in close?</summary><p>Online check-in closes 60 minutes before departure. Airport counters close 45 minutes before departure for all domestic flights.</p></details>
+          <details><summary>Can I change my travel date?</summary><p>Classic and Flex fares can be changed up to 24 hours before departure. Saver fares can be changed for a fee of LKR 3,500 plus any fare difference.</p></details>
+          <details><summary>Do I need my passport for a domestic flight?</summary><p>Sri Lankan citizens can travel with their NIC. Foreign nationals must present a valid passport at check-in.</p></details>
+          <details><summary>Do you offer wheelchair assistance?</summary><p>Yes — it's free. Request it while booking or contact us at least 48 hours before your flight so we can arrange it.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <span class="brand-mark"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg></span>
+            <span>Lanka<b>Sky</b></span>
+          </a>
+          <p>Connecting Colombo with the beaches, ruins and hill country of Sri Lanka — in under an hour.</p>
+          <form class="newsletter field" style="max-width:340px">
+            <label for="nl-contact" style="color:var(--purple-200)">Fare alerts</label>
+            <div style="display:flex;gap:8px">
+              <input id="nl-contact" type="email" placeholder="you@email.com" required>
+              <button class="btn btn-white btn-sm" type="submit">Join</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <h4>Fly</h4>
+          <ul>
+            <li><a href="index.html">Book a flight</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="status.html">Flight status</a></li>
+            <li><a href="#">Manage booking</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Travel info</h4>
+          <ul>
+            <li><a href="contact.html#faq">Baggage</a></li>
+            <li><a href="contact.html#faq">Check-in</a></li>
+            <li><a href="contact.html#faq">Special assistance</a></li>
+            <li><a href="contact.html#faq">Fare rules</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>LankaSky</h4>
+          <ul>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> LankaSky. A design prototype — fictional airline, mock data.</span>
+        <span>Made for Holiday in Lanka</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
