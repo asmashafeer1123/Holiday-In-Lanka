@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LankaSky — Book Domestic Flights in Sri Lanka</title>
   <meta name="description" content="Book fast, affordable domestic flights across Sri Lanka.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body data-page="book">
@@ -88,22 +85,22 @@
           <button type="button" class="trip-tab" data-trip="oneway">One way</button>
         </div>
         <div class="booking-grid">
-          <div class="field">
+          <div class="field field-from">
             <label for="from">From</label>
             <select id="from" data-airports data-default="CMB"></select>
           </div>
           <button type="button" class="swap-btn" id="swap" aria-label="Swap origin and destination">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4 3 8l4 4"/><path d="M3 8h18"/><path d="m17 20 4-4-4-4"/><path d="M21 16H3"/></svg>
           </button>
-          <div class="field">
+          <div class="field field-to">
             <label for="to">To</label>
             <select id="to" data-airports data-default="TRR"></select>
           </div>
-          <div class="field field-date">
+          <div class="field field-depart">
             <label for="depart">Depart</label>
             <input type="date" id="depart" required>
           </div>
-          <div class="field field-date">
+          <div class="field field-return">
             <label for="return">Return</label>
             <input type="date" id="return">
           </div>

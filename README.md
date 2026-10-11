@@ -18,6 +18,7 @@ Open `index.html` in a browser — no build step or server needed.
 - Styles: `assets/css/styles.css` (colour tokens at the top under `:root`)
 - Behaviour + mock data: `assets/js/main.js`
 
-**Font note:** Carla Sans isn't available on Google Fonts, so the font stack is
-`"Carla Sans", "Karla", …`. If Carla Sans is installed on the viewer's machine (or you add its
-`@font-face` files to `assets/`), it's used everywhere; otherwise the similar Karla is loaded as a fallback.
+**Font:** Carla Sans is self-hosted from `assets/fonts/` (Light, Regular, SemiBold, Bold) and applied to
+every element, including form fields. These are the free **demo** files, licensed for personal use
+only (see `assets/fonts/LICENSE-CarlaSans.txt`). Buy the commercial licence from
+https://crativecorner.gumroad.com/l/Carla before using this site commercially.
